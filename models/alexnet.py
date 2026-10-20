@@ -26,7 +26,7 @@ class AlexNet(nn.Module):
         
         # 256 channels * 6 * 6 pooled spatial positions = 9216 features.
         self.classifier = nn.Sequential(
-            nn.Dropout(p=0.5),
+            nn.Dropout(p=0.9),
             nn.Linear(256 * 6 * 6, 4096),
             nn.ReLU(inplace=True),
             nn.Dropout(p=0.5),
