@@ -1,0 +1,1571 @@
+[2026-10-11 00:09:50 lenet] (main.py 231): INFO Full config saved to output/lenet/config.yaml
+[2026-10-11 00:09:50 lenet] (main.py 234): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-11 00:09:50 lenet] (main.py 235): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-11 00:10:25 lenet] (main.py 231): INFO Full config saved to output/lenet/config.yaml
+[2026-10-11 00:10:25 lenet] (main.py 234): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-11 00:10:25 lenet] (main.py 235): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-11 00:32:57 lenet] (main.py 231): INFO Full config saved to output/lenet/config.yaml
+[2026-10-11 00:32:57 lenet] (main.py 234): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-11 00:32:57 lenet] (main.py 235): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-11 20:37:14 lenet] (main.py 231): INFO Full config saved to output/lenet/config.yaml
+[2026-10-11 20:37:14 lenet] (main.py 234): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-11 20:37:14 lenet] (main.py 235): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-11 20:37:34 lenet] (main.py 231): INFO Full config saved to output/lenet/config.yaml
+[2026-10-11 20:37:34 lenet] (main.py 234): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-11 20:37:34 lenet] (main.py 235): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-11 20:38:15 lenet] (main.py 231): INFO Full config saved to output/lenet/config.yaml
+[2026-10-11 20:38:15 lenet] (main.py 234): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-11 20:38:15 lenet] (main.py 235): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-18 20:53:46 lenet] (main.py 231): INFO Full config saved to output/lenet/config.yaml
+[2026-10-18 20:53:46 lenet] (main.py 234): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-18 20:53:46 lenet] (main.py 235): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-18 21:04:13 lenet] (main.py 231): INFO Full config saved to output/lenet/config.yaml
+[2026-10-18 21:04:13 lenet] (main.py 234): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-18 21:04:13 lenet] (main.py 235): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-18 21:31:20 lenet] (main.py 231): INFO Full config saved to output/lenet/config.yaml
+[2026-10-18 21:31:20 lenet] (main.py 234): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-18 21:31:20 lenet] (main.py 235): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-18 21:32:18 lenet] (main.py 231): INFO Full config saved to output/lenet/config.yaml
+[2026-10-18 21:32:18 lenet] (main.py 234): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-18 21:32:18 lenet] (main.py 235): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-18 21:32:20 lenet] (main.py 68): INFO LeNet(
+  #params: 31.3K, #flops: 1.1M
+  (features): Sequential(
+    #params: 2.87K, #flops: 1.08M
+    (0): Conv2d(
+      3, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2)
+      #params: 0.46K, #flops: 0.46M
+    )
+    (1): Sigmoid()
+    (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+    (3): Conv2d(
+      6, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2)
+      #params: 2.42K, #flops: 0.61M
+    )
+    (4): Sigmoid()
+    (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  )
+  (classifier): Sequential(
+    #params: 28.43K, #flops: 28.02K
+    (0): Linear(
+      in_features=1024, out_features=1, bias=True
+      #params: 1.02K, #flops: 1.02K
+    )
+    (1): Sigmoid()
+    (2): Linear(
+      in_features=1, out_features=120, bias=True
+      #params: 0.24K, #flops: 0.12K
+    )
+    (3): Sigmoid()
+    (4): Linear(
+      in_features=120, out_features=84, bias=True
+      #params: 10.16K, #flops: 10.08K
+    )
+    (5): Sigmoid()
+    (6): Linear(
+      in_features=84, out_features=200, bias=True
+      #params: 17K, #flops: 16.8K
+    )
+  )
+)
+[2026-10-18 21:32:20 lenet] (main.py 69): INFO number of params: 0.031301 M
+[2026-10-18 21:32:20 lenet] (main.py 70): INFO flops: 1.103224 MFLOPS
+[2026-10-18 21:32:20 lenet] (main.py 86): INFO Start training
+[2026-10-18 21:57:47 lenet] (main.py 231): INFO Full config saved to output/lenet/config.yaml
+[2026-10-18 21:57:47 lenet] (main.py 234): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-18 21:57:47 lenet] (main.py 235): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-18 21:57:49 lenet] (main.py 68): INFO LeNet(
+  #params: 31.3K, #flops: 1.1M
+  (features): Sequential(
+    #params: 2.87K, #flops: 1.08M
+    (0): Conv2d(
+      3, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2)
+      #params: 0.46K, #flops: 0.46M
+    )
+    (1): Sigmoid()
+    (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+    (3): Conv2d(
+      6, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2)
+      #params: 2.42K, #flops: 0.61M
+    )
+    (4): Sigmoid()
+    (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  )
+  (classifier): Sequential(
+    #params: 28.43K, #flops: 28.02K
+    (0): Linear(
+      in_features=1024, out_features=1, bias=True
+      #params: 1.02K, #flops: 1.02K
+    )
+    (1): Sigmoid()
+    (2): Linear(
+      in_features=1, out_features=120, bias=True
+      #params: 0.24K, #flops: 0.12K
+    )
+    (3): Sigmoid()
+    (4): Linear(
+      in_features=120, out_features=84, bias=True
+      #params: 10.16K, #flops: 10.08K
+    )
+    (5): Sigmoid()
+    (6): Linear(
+      in_features=84, out_features=200, bias=True
+      #params: 17K, #flops: 16.8K
+    )
+  )
+)
+[2026-10-18 21:57:49 lenet] (main.py 69): INFO number of params: 0.031301 M
+[2026-10-18 21:57:49 lenet] (main.py 70): INFO flops: 1.103224 MFLOPS
+[2026-10-18 21:57:49 lenet] (main.py 86): INFO Start training
+[2026-10-19 06:22:59 lenet] (main.py 231): INFO Full config saved to output/lenet/config.yaml
+[2026-10-19 06:22:59 lenet] (main.py 234): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-19 06:22:59 lenet] (main.py 235): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-19 06:23:01 lenet] (main.py 68): INFO LeNet(
+  #params: 31.3K, #flops: 1.1M
+  (features): Sequential(
+    #params: 2.87K, #flops: 1.08M
+    (0): Conv2d(
+      3, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2)
+      #params: 0.46K, #flops: 0.46M
+    )
+    (1): Sigmoid()
+    (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+    (3): Conv2d(
+      6, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2)
+      #params: 2.42K, #flops: 0.61M
+    )
+    (4): Sigmoid()
+    (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  )
+  (classifier): Sequential(
+    #params: 28.43K, #flops: 28.02K
+    (0): Linear(
+      in_features=1024, out_features=1, bias=True
+      #params: 1.02K, #flops: 1.02K
+    )
+    (1): Sigmoid()
+    (2): Linear(
+      in_features=1, out_features=120, bias=True
+      #params: 0.24K, #flops: 0.12K
+    )
+    (3): Sigmoid()
+    (4): Linear(
+      in_features=120, out_features=84, bias=True
+      #params: 10.16K, #flops: 10.08K
+    )
+    (5): Sigmoid()
+    (6): Linear(
+      in_features=84, out_features=200, bias=True
+      #params: 17K, #flops: 16.8K
+    )
+  )
+)
+[2026-10-19 06:23:01 lenet] (main.py 69): INFO number of params: 0.031301 M
+[2026-10-19 06:23:01 lenet] (main.py 70): INFO flops: 1.103224 MFLOPS
+[2026-10-19 06:23:01 lenet] (main.py 86): INFO Start training
+[2026-10-19 06:29:04 lenet] (main.py 231): INFO Full config saved to output/lenet/config.yaml
+[2026-10-19 06:29:04 lenet] (main.py 234): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-19 06:29:04 lenet] (main.py 235): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-19 06:30:51 lenet] (main.py 231): INFO Full config saved to output/lenet/config.yaml
+[2026-10-19 06:30:51 lenet] (main.py 234): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-19 06:30:51 lenet] (main.py 235): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-19 06:30:54 lenet] (main.py 68): INFO LeNet(
+  #params: 0.15M, #flops: 1.22M
+  (features): Sequential(
+    #params: 2.87K, #flops: 1.08M
+    (0): Conv2d(
+      3, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2)
+      #params: 0.46K, #flops: 0.46M
+    )
+    (1): Sigmoid()
+    (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+    (3): Conv2d(
+      6, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2)
+      #params: 2.42K, #flops: 0.61M
+    )
+    (4): Sigmoid()
+    (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  )
+  (classifier): Sequential(
+    #params: 0.15M, #flops: 0.15M
+    (0): Linear(
+      in_features=1024, out_features=120, bias=True
+      #params: 0.12M, #flops: 0.12M
+    )
+    (1): Sigmoid()
+    (2): Linear(
+      in_features=120, out_features=84, bias=True
+      #params: 10.16K, #flops: 10.08K
+    )
+    (3): Sigmoid()
+    (4): Linear(
+      in_features=84, out_features=200, bias=True
+      #params: 17K, #flops: 16.8K
+    )
+  )
+)
+[2026-10-19 06:30:54 lenet] (main.py 69): INFO number of params: 0.153036 M
+[2026-10-19 06:30:54 lenet] (main.py 70): INFO flops: 1.22496 MFLOPS
+[2026-10-19 06:30:54 lenet] (main.py 86): INFO Start training
+[2026-10-19 06:32:05 lenet] (main.py 231): INFO Full config saved to output/lenet/config.yaml
+[2026-10-19 06:32:05 lenet] (main.py 234): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-19 06:32:05 lenet] (main.py 235): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-19 06:32:07 lenet] (main.py 68): INFO LeNet(
+  #params: 0.15M, #flops: 1.22M
+  (features): Sequential(
+    #params: 2.87K, #flops: 1.08M
+    (0): Conv2d(
+      3, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2)
+      #params: 0.46K, #flops: 0.46M
+    )
+    (1): Sigmoid()
+    (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+    (3): Conv2d(
+      6, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2)
+      #params: 2.42K, #flops: 0.61M
+    )
+    (4): Sigmoid()
+    (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  )
+  (classifier): Sequential(
+    #params: 0.15M, #flops: 0.15M
+    (0): Linear(
+      in_features=1024, out_features=120, bias=True
+      #params: 0.12M, #flops: 0.12M
+    )
+    (1): Sigmoid()
+    (2): Linear(
+      in_features=120, out_features=84, bias=True
+      #params: 10.16K, #flops: 10.08K
+    )
+    (3): Sigmoid()
+    (4): Linear(
+      in_features=84, out_features=200, bias=True
+      #params: 17K, #flops: 16.8K
+    )
+  )
+)
+[2026-10-19 06:32:07 lenet] (main.py 69): INFO number of params: 0.153036 M
+[2026-10-19 06:32:07 lenet] (main.py 70): INFO flops: 1.22496 MFLOPS
+[2026-10-19 06:32:07 lenet] (main.py 86): INFO Start training
+[2026-10-19 06:34:10 lenet] (main.py 232): INFO Full config saved to output/lenet/config.yaml
+[2026-10-19 06:34:10 lenet] (main.py 235): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-19 06:34:10 lenet] (main.py 236): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-19 06:34:13 lenet] (main.py 69): INFO LeNet(
+  #params: 0.15M, #flops: 1.22M
+  (features): Sequential(
+    #params: 2.87K, #flops: 1.08M
+    (0): Conv2d(
+      3, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2)
+      #params: 0.46K, #flops: 0.46M
+    )
+    (1): Sigmoid()
+    (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+    (3): Conv2d(
+      6, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2)
+      #params: 2.42K, #flops: 0.61M
+    )
+    (4): Sigmoid()
+    (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  )
+  (classifier): Sequential(
+    #params: 0.15M, #flops: 0.15M
+    (0): Linear(
+      in_features=1024, out_features=120, bias=True
+      #params: 0.12M, #flops: 0.12M
+    )
+    (1): Sigmoid()
+    (2): Linear(
+      in_features=120, out_features=84, bias=True
+      #params: 10.16K, #flops: 10.08K
+    )
+    (3): Sigmoid()
+    (4): Linear(
+      in_features=84, out_features=200, bias=True
+      #params: 17K, #flops: 16.8K
+    )
+  )
+)
+[2026-10-19 06:34:13 lenet] (main.py 70): INFO number of params: 0.153036 M
+[2026-10-19 06:34:13 lenet] (main.py 71): INFO flops: 1.22496 MFLOPS
+[2026-10-19 06:34:13 lenet] (main.py 87): INFO Start training
+[2026-10-19 06:36:29 lenet] (main.py 231): INFO Full config saved to output/lenet/config.yaml
+[2026-10-19 06:36:29 lenet] (main.py 234): INFO AUG:
+  COLOR_JITTER: 0.4
+  RAND_AUGMENT: rand-m9-mstd0.5-inc1
+BASE:
+- ''
+DATA:
+  BATCH_SIZE: 256
+  DATASET: cifar10
+  DATA_PATH: ''
+  IMG_SIZE: 32
+  INTERPOLATION: bicubic
+  NUM_WORKERS: 32
+  PIN_MEMORY: true
+EVAL_MODE: false
+MODEL:
+  DROP_RATE: 0.9
+  NAME: lenet
+  NUM_CLASSES: 200
+  RESNET: {}
+  RESUME: ''
+OUTPUT: output/lenet
+PRINT_FREQ: 99999
+SAVE_FREQ: 5
+SEED: 0
+TEST:
+  CROP: true
+  SEQUENTIAL: false
+  SHUFFLE: false
+TRAIN:
+  ACCUMULATION_STEPS: 1
+  EPOCHS: 50
+  LR: 0.02
+  LR_SCHEDULER:
+    NAME: cosine
+  MIN_LR: 0.02
+  OPTIMIZER:
+    BETAS:
+    - 0.9
+    - 0.999
+    EPS: 1.0e-08
+    MOMENTUM: 0.9
+    NAME: adamw
+  START_EPOCH: 0
+  WARMUP_EPOCHS: 10
+  WARMUP_LR: 0.02
+
+[2026-10-19 06:36:29 lenet] (main.py 235): INFO {"cfg": "configs/lenet_base.yaml", "opts": null, "batch_size": null, "data_path": null, "resume": null, "output": "output", "eval": false, "throughput": false}
+[2026-10-19 06:36:32 lenet] (main.py 68): INFO LeNet(
+  #params: 0.15M, #flops: 1.22M
+  (features): Sequential(
+    #params: 2.87K, #flops: 1.08M
+    (0): Conv2d(
+      3, 6, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2)
+      #params: 0.46K, #flops: 0.46M
+    )
+    (1): Sigmoid()
+    (2): AvgPool2d(kernel_size=2, stride=2, padding=0)
+    (3): Conv2d(
+      6, 16, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2)
+      #params: 2.42K, #flops: 0.61M
+    )
+    (4): Sigmoid()
+    (5): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  )
+  (classifier): Sequential(
+    #params: 0.15M, #flops: 0.15M
+    (0): Linear(
+      in_features=1024, out_features=120, bias=True
+      #params: 0.12M, #flops: 0.12M
+    )
+    (1): Sigmoid()
+    (2): Linear(
+      in_features=120, out_features=84, bias=True
+      #params: 10.16K, #flops: 10.08K
+    )
+    (3): Sigmoid()
+    (4): Linear(
+      in_features=84, out_features=200, bias=True
+      #params: 17K, #flops: 16.8K
+    )
+  )
+)
+[2026-10-19 06:36:32 lenet] (main.py 69): INFO number of params: 0.153036 M
+[2026-10-19 06:36:32 lenet] (main.py 70): INFO flops: 1.22496 MFLOPS
+[2026-10-19 06:36:32 lenet] (main.py 86): INFO Start training
+[2026-10-19 06:36:35 lenet] (main.py 151): INFO Train: [0/50]	lr 0.020000	time 0.0087 (0.0135)	loss 2.3044 (2.3647)	Acc@1 15.000 (9.914)	Mem 59MB
+[2026-10-19 06:36:35 lenet] (main.py 160): INFO EPOCH 0 training takes 0:00:02
+[2026-10-19 06:36:35 lenet] (main.py 90): INFO  * Train Acc 9.914 Train Loss 2.365
+[2026-10-19 06:36:35 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 9.9%
+[2026-10-19 06:36:35 lenet] (main.py 193): INFO Validate: 	Time 0.024 (0.017)	Loss 2.3808 (2.3696)	Acc@1 18.750 (10.000)	Mem 59MB
+[2026-10-19 06:36:35 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.370
+[2026-10-19 06:36:35 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:36:35 lenet] (load_save.py 48): INFO output/lenet/ckpt_best.pth saving......
+[2026-10-19 06:36:35 lenet] (load_save.py 50): INFO output/lenet/ckpt_best.pth saved !!!
+[2026-10-19 06:36:35 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:36:38 lenet] (main.py 151): INFO Train: [1/50]	lr 0.020000	time 0.0042 (0.0113)	loss 2.3138 (2.3337)	Acc@1 12.500 (9.864)	Mem 59MB
+[2026-10-19 06:36:38 lenet] (main.py 160): INFO EPOCH 1 training takes 0:00:02
+[2026-10-19 06:36:38 lenet] (main.py 90): INFO  * Train Acc 9.864 Train Loss 2.334
+[2026-10-19 06:36:38 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 9.9%
+[2026-10-19 06:36:38 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 2.3737 (2.3183)	Acc@1 18.750 (10.000)	Mem 59MB
+[2026-10-19 06:36:38 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.318
+[2026-10-19 06:36:38 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:36:38 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:36:41 lenet] (main.py 151): INFO Train: [2/50]	lr 0.020000	time 0.0035 (0.0117)	loss 2.2783 (2.3272)	Acc@1 13.750 (9.974)	Mem 59MB
+[2026-10-19 06:36:41 lenet] (main.py 160): INFO EPOCH 2 training takes 0:00:02
+[2026-10-19 06:36:41 lenet] (main.py 90): INFO  * Train Acc 9.974 Train Loss 2.327
+[2026-10-19 06:36:41 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.0%
+[2026-10-19 06:36:41 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 2.3096 (2.3702)	Acc@1 0.000 (10.000)	Mem 59MB
+[2026-10-19 06:36:41 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.370
+[2026-10-19 06:36:41 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:36:41 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:36:44 lenet] (main.py 151): INFO Train: [3/50]	lr 0.020000	time 0.0050 (0.0115)	loss 2.3627 (2.3286)	Acc@1 12.500 (10.030)	Mem 59MB
+[2026-10-19 06:36:44 lenet] (main.py 160): INFO EPOCH 3 training takes 0:00:02
+[2026-10-19 06:36:44 lenet] (main.py 90): INFO  * Train Acc 10.030 Train Loss 2.329
+[2026-10-19 06:36:44 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.0%
+[2026-10-19 06:36:45 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 2.3698 (2.3291)	Acc@1 18.750 (10.000)	Mem 59MB
+[2026-10-19 06:36:45 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.329
+[2026-10-19 06:36:45 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:36:45 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:36:47 lenet] (main.py 151): INFO Train: [4/50]	lr 0.020000	time 0.0030 (0.0115)	loss 2.3275 (2.3264)	Acc@1 6.250 (10.188)	Mem 59MB
+[2026-10-19 06:36:47 lenet] (main.py 160): INFO EPOCH 4 training takes 0:00:02
+[2026-10-19 06:36:47 lenet] (main.py 90): INFO  * Train Acc 10.188 Train Loss 2.326
+[2026-10-19 06:36:47 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.2%
+[2026-10-19 06:36:48 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 2.2747 (2.3177)	Acc@1 6.250 (10.000)	Mem 59MB
+[2026-10-19 06:36:48 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.318
+[2026-10-19 06:36:48 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:36:48 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:36:50 lenet] (main.py 151): INFO Train: [5/50]	lr 0.020000	time 0.0031 (0.0117)	loss 2.3061 (2.3214)	Acc@1 7.500 (10.088)	Mem 59MB
+[2026-10-19 06:36:50 lenet] (main.py 160): INFO EPOCH 5 training takes 0:00:02
+[2026-10-19 06:36:50 lenet] (main.py 90): INFO  * Train Acc 10.088 Train Loss 2.321
+[2026-10-19 06:36:50 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.1%
+[2026-10-19 06:36:51 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 2.2643 (2.3155)	Acc@1 18.750 (10.000)	Mem 59MB
+[2026-10-19 06:36:51 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.316
+[2026-10-19 06:36:51 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:36:51 lenet] (load_save.py 48): INFO output/lenet/ckpt_best.pth saving......
+[2026-10-19 06:36:51 lenet] (load_save.py 50): INFO output/lenet/ckpt_best.pth saved !!!
+[2026-10-19 06:36:51 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:36:53 lenet] (main.py 151): INFO Train: [6/50]	lr 0.020000	time 0.0030 (0.0118)	loss 2.3281 (2.3204)	Acc@1 6.250 (10.238)	Mem 59MB
+[2026-10-19 06:36:53 lenet] (main.py 160): INFO EPOCH 6 training takes 0:00:02
+[2026-10-19 06:36:53 lenet] (main.py 90): INFO  * Train Acc 10.238 Train Loss 2.320
+[2026-10-19 06:36:53 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.2%
+[2026-10-19 06:36:54 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.016)	Loss 2.2823 (2.3169)	Acc@1 18.750 (10.000)	Mem 59MB
+[2026-10-19 06:36:54 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.317
+[2026-10-19 06:36:54 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:36:54 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:36:56 lenet] (main.py 151): INFO Train: [7/50]	lr 0.020000	time 0.0038 (0.0113)	loss 2.3063 (2.3192)	Acc@1 7.500 (9.986)	Mem 59MB
+[2026-10-19 06:36:56 lenet] (main.py 160): INFO EPOCH 7 training takes 0:00:02
+[2026-10-19 06:36:56 lenet] (main.py 90): INFO  * Train Acc 9.986 Train Loss 2.319
+[2026-10-19 06:36:56 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.0%
+[2026-10-19 06:36:57 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 2.3168 (2.3161)	Acc@1 6.250 (10.000)	Mem 59MB
+[2026-10-19 06:36:57 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.316
+[2026-10-19 06:36:57 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:36:57 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:36:59 lenet] (main.py 151): INFO Train: [8/50]	lr 0.020000	time 0.0028 (0.0110)	loss 2.3326 (2.3155)	Acc@1 10.000 (10.060)	Mem 59MB
+[2026-10-19 06:36:59 lenet] (main.py 160): INFO EPOCH 8 training takes 0:00:02
+[2026-10-19 06:36:59 lenet] (main.py 90): INFO  * Train Acc 10.060 Train Loss 2.316
+[2026-10-19 06:36:59 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.1%
+[2026-10-19 06:37:00 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 2.3765 (2.3188)	Acc@1 0.000 (10.000)	Mem 59MB
+[2026-10-19 06:37:00 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.319
+[2026-10-19 06:37:00 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:00 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:02 lenet] (main.py 151): INFO Train: [9/50]	lr 0.020000	time 0.0023 (0.0106)	loss 2.3294 (2.3153)	Acc@1 7.500 (9.804)	Mem 59MB
+[2026-10-19 06:37:02 lenet] (main.py 160): INFO EPOCH 9 training takes 0:00:02
+[2026-10-19 06:37:02 lenet] (main.py 90): INFO  * Train Acc 9.804 Train Loss 2.315
+[2026-10-19 06:37:02 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 9.8%
+[2026-10-19 06:37:03 lenet] (main.py 193): INFO Validate: 	Time 0.002 (0.016)	Loss 2.2519 (2.3074)	Acc@1 18.750 (10.000)	Mem 59MB
+[2026-10-19 06:37:03 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.307
+[2026-10-19 06:37:03 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:03 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:05 lenet] (main.py 151): INFO Train: [10/50]	lr 0.020000	time 0.0027 (0.0112)	loss 2.3018 (2.3119)	Acc@1 11.250 (10.092)	Mem 59MB
+[2026-10-19 06:37:05 lenet] (main.py 160): INFO EPOCH 10 training takes 0:00:02
+[2026-10-19 06:37:05 lenet] (main.py 90): INFO  * Train Acc 10.092 Train Loss 2.312
+[2026-10-19 06:37:05 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.1%
+[2026-10-19 06:37:06 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.018)	Loss 2.3256 (2.3086)	Acc@1 6.250 (10.000)	Mem 59MB
+[2026-10-19 06:37:06 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.309
+[2026-10-19 06:37:06 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:06 lenet] (load_save.py 48): INFO output/lenet/ckpt_best.pth saving......
+[2026-10-19 06:37:06 lenet] (load_save.py 50): INFO output/lenet/ckpt_best.pth saved !!!
+[2026-10-19 06:37:06 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:08 lenet] (main.py 151): INFO Train: [11/50]	lr 0.020000	time 0.0032 (0.0109)	loss 2.3338 (2.3132)	Acc@1 10.000 (9.982)	Mem 59MB
+[2026-10-19 06:37:08 lenet] (main.py 160): INFO EPOCH 11 training takes 0:00:02
+[2026-10-19 06:37:08 lenet] (main.py 90): INFO  * Train Acc 9.982 Train Loss 2.313
+[2026-10-19 06:37:08 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.0%
+[2026-10-19 06:37:09 lenet] (main.py 193): INFO Validate: 	Time 0.002 (0.016)	Loss 2.3966 (2.3172)	Acc@1 6.250 (10.000)	Mem 59MB
+[2026-10-19 06:37:09 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.317
+[2026-10-19 06:37:09 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:09 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:11 lenet] (main.py 151): INFO Train: [12/50]	lr 0.020000	time 0.0039 (0.0121)	loss 2.2988 (2.3132)	Acc@1 12.500 (10.128)	Mem 59MB
+[2026-10-19 06:37:11 lenet] (main.py 160): INFO EPOCH 12 training takes 0:00:02
+[2026-10-19 06:37:11 lenet] (main.py 90): INFO  * Train Acc 10.128 Train Loss 2.313
+[2026-10-19 06:37:11 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.1%
+[2026-10-19 06:37:12 lenet] (main.py 193): INFO Validate: 	Time 0.002 (0.015)	Loss 2.3261 (2.3111)	Acc@1 0.000 (10.000)	Mem 59MB
+[2026-10-19 06:37:12 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.311
+[2026-10-19 06:37:12 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:12 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:14 lenet] (main.py 151): INFO Train: [13/50]	lr 0.020000	time 0.0035 (0.0119)	loss 2.3136 (2.3140)	Acc@1 8.750 (10.068)	Mem 59MB
+[2026-10-19 06:37:14 lenet] (main.py 160): INFO EPOCH 13 training takes 0:00:02
+[2026-10-19 06:37:14 lenet] (main.py 90): INFO  * Train Acc 10.068 Train Loss 2.314
+[2026-10-19 06:37:14 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.1%
+[2026-10-19 06:37:15 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.024)	Loss 2.3648 (2.3150)	Acc@1 0.000 (10.000)	Mem 59MB
+[2026-10-19 06:37:15 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.315
+[2026-10-19 06:37:15 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:15 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:17 lenet] (main.py 151): INFO Train: [14/50]	lr 0.020000	time 0.0026 (0.0111)	loss 2.2911 (2.3133)	Acc@1 15.000 (10.060)	Mem 59MB
+[2026-10-19 06:37:17 lenet] (main.py 160): INFO EPOCH 14 training takes 0:00:02
+[2026-10-19 06:37:17 lenet] (main.py 90): INFO  * Train Acc 10.060 Train Loss 2.313
+[2026-10-19 06:37:17 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.1%
+[2026-10-19 06:37:18 lenet] (main.py 193): INFO Validate: 	Time 0.002 (0.017)	Loss 2.2780 (2.3104)	Acc@1 18.750 (10.000)	Mem 59MB
+[2026-10-19 06:37:18 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.310
+[2026-10-19 06:37:18 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:18 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:20 lenet] (main.py 151): INFO Train: [15/50]	lr 0.020000	time 0.0029 (0.0107)	loss 2.2968 (2.3132)	Acc@1 15.000 (9.934)	Mem 59MB
+[2026-10-19 06:37:20 lenet] (main.py 160): INFO EPOCH 15 training takes 0:00:02
+[2026-10-19 06:37:20 lenet] (main.py 90): INFO  * Train Acc 9.934 Train Loss 2.313
+[2026-10-19 06:37:20 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 9.9%
+[2026-10-19 06:37:21 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.016)	Loss 2.3293 (2.3092)	Acc@1 0.000 (10.000)	Mem 59MB
+[2026-10-19 06:37:21 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.309
+[2026-10-19 06:37:21 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:21 lenet] (load_save.py 48): INFO output/lenet/ckpt_best.pth saving......
+[2026-10-19 06:37:21 lenet] (load_save.py 50): INFO output/lenet/ckpt_best.pth saved !!!
+[2026-10-19 06:37:21 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:23 lenet] (main.py 151): INFO Train: [16/50]	lr 0.020000	time 0.0035 (0.0112)	loss 2.3085 (2.3093)	Acc@1 11.250 (10.090)	Mem 59MB
+[2026-10-19 06:37:23 lenet] (main.py 160): INFO EPOCH 16 training takes 0:00:02
+[2026-10-19 06:37:23 lenet] (main.py 90): INFO  * Train Acc 10.090 Train Loss 2.309
+[2026-10-19 06:37:23 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.1%
+[2026-10-19 06:37:24 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.016)	Loss 2.2847 (2.3078)	Acc@1 6.250 (10.000)	Mem 59MB
+[2026-10-19 06:37:24 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.308
+[2026-10-19 06:37:24 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:24 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:26 lenet] (main.py 151): INFO Train: [17/50]	lr 0.020000	time 0.0026 (0.0113)	loss 2.3045 (2.3103)	Acc@1 8.750 (9.980)	Mem 59MB
+[2026-10-19 06:37:26 lenet] (main.py 160): INFO EPOCH 17 training takes 0:00:02
+[2026-10-19 06:37:26 lenet] (main.py 90): INFO  * Train Acc 9.980 Train Loss 2.310
+[2026-10-19 06:37:26 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.0%
+[2026-10-19 06:37:27 lenet] (main.py 193): INFO Validate: 	Time 0.002 (0.017)	Loss 2.2980 (2.3087)	Acc@1 18.750 (10.000)	Mem 59MB
+[2026-10-19 06:37:27 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.309
+[2026-10-19 06:37:27 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:27 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:29 lenet] (main.py 151): INFO Train: [18/50]	lr 0.020000	time 0.0027 (0.0111)	loss 2.2926 (2.3080)	Acc@1 8.750 (10.022)	Mem 59MB
+[2026-10-19 06:37:29 lenet] (main.py 160): INFO EPOCH 18 training takes 0:00:02
+[2026-10-19 06:37:29 lenet] (main.py 90): INFO  * Train Acc 10.022 Train Loss 2.308
+[2026-10-19 06:37:29 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.0%
+[2026-10-19 06:37:30 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.016)	Loss 2.3143 (2.3068)	Acc@1 0.000 (10.000)	Mem 59MB
+[2026-10-19 06:37:30 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.307
+[2026-10-19 06:37:30 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:30 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:32 lenet] (main.py 151): INFO Train: [19/50]	lr 0.020000	time 0.0035 (0.0108)	loss 2.3180 (2.3079)	Acc@1 8.750 (10.316)	Mem 59MB
+[2026-10-19 06:37:32 lenet] (main.py 160): INFO EPOCH 19 training takes 0:00:02
+[2026-10-19 06:37:32 lenet] (main.py 90): INFO  * Train Acc 10.316 Train Loss 2.308
+[2026-10-19 06:37:32 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.3%
+[2026-10-19 06:37:33 lenet] (main.py 193): INFO Validate: 	Time 0.002 (0.016)	Loss 2.2745 (2.3110)	Acc@1 18.750 (10.000)	Mem 59MB
+[2026-10-19 06:37:33 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.311
+[2026-10-19 06:37:33 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:33 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:35 lenet] (main.py 151): INFO Train: [20/50]	lr 0.020000	time 0.0028 (0.0107)	loss 2.3035 (2.3083)	Acc@1 10.000 (10.050)	Mem 59MB
+[2026-10-19 06:37:35 lenet] (main.py 160): INFO EPOCH 20 training takes 0:00:02
+[2026-10-19 06:37:35 lenet] (main.py 90): INFO  * Train Acc 10.050 Train Loss 2.308
+[2026-10-19 06:37:35 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.1%
+[2026-10-19 06:37:35 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.016)	Loss 2.3101 (2.3086)	Acc@1 0.000 (10.000)	Mem 59MB
+[2026-10-19 06:37:35 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.309
+[2026-10-19 06:37:35 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:35 lenet] (load_save.py 48): INFO output/lenet/ckpt_best.pth saving......
+[2026-10-19 06:37:35 lenet] (load_save.py 50): INFO output/lenet/ckpt_best.pth saved !!!
+[2026-10-19 06:37:35 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:38 lenet] (main.py 151): INFO Train: [21/50]	lr 0.020000	time 0.0033 (0.0106)	loss 2.3134 (2.3071)	Acc@1 10.000 (9.876)	Mem 59MB
+[2026-10-19 06:37:38 lenet] (main.py 160): INFO EPOCH 21 training takes 0:00:02
+[2026-10-19 06:37:38 lenet] (main.py 90): INFO  * Train Acc 9.876 Train Loss 2.307
+[2026-10-19 06:37:38 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 9.9%
+[2026-10-19 06:37:38 lenet] (main.py 193): INFO Validate: 	Time 0.002 (0.017)	Loss 2.3045 (2.3089)	Acc@1 6.250 (10.000)	Mem 59MB
+[2026-10-19 06:37:38 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.309
+[2026-10-19 06:37:38 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:38 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:41 lenet] (main.py 151): INFO Train: [22/50]	lr 0.020000	time 0.0048 (0.0116)	loss 2.3101 (2.3071)	Acc@1 11.250 (9.950)	Mem 59MB
+[2026-10-19 06:37:41 lenet] (main.py 160): INFO EPOCH 22 training takes 0:00:02
+[2026-10-19 06:37:41 lenet] (main.py 90): INFO  * Train Acc 9.950 Train Loss 2.307
+[2026-10-19 06:37:41 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 9.9%
+[2026-10-19 06:37:41 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 2.2722 (2.3078)	Acc@1 18.750 (10.000)	Mem 59MB
+[2026-10-19 06:37:41 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.308
+[2026-10-19 06:37:41 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:41 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:44 lenet] (main.py 151): INFO Train: [23/50]	lr 0.020000	time 0.0039 (0.0112)	loss 2.3028 (2.3068)	Acc@1 10.000 (9.832)	Mem 59MB
+[2026-10-19 06:37:44 lenet] (main.py 160): INFO EPOCH 23 training takes 0:00:02
+[2026-10-19 06:37:44 lenet] (main.py 90): INFO  * Train Acc 9.832 Train Loss 2.307
+[2026-10-19 06:37:44 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 9.8%
+[2026-10-19 06:37:44 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 2.3130 (2.3056)	Acc@1 18.750 (10.000)	Mem 59MB
+[2026-10-19 06:37:44 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.306
+[2026-10-19 06:37:44 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:44 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:47 lenet] (main.py 151): INFO Train: [24/50]	lr 0.020000	time 0.0033 (0.0111)	loss 2.3081 (2.3067)	Acc@1 11.250 (10.000)	Mem 59MB
+[2026-10-19 06:37:47 lenet] (main.py 160): INFO EPOCH 24 training takes 0:00:02
+[2026-10-19 06:37:47 lenet] (main.py 90): INFO  * Train Acc 10.000 Train Loss 2.307
+[2026-10-19 06:37:47 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.0%
+[2026-10-19 06:37:47 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.018)	Loss 2.3027 (2.3039)	Acc@1 0.000 (10.000)	Mem 59MB
+[2026-10-19 06:37:47 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.304
+[2026-10-19 06:37:47 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:47 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:50 lenet] (main.py 151): INFO Train: [25/50]	lr 0.020000	time 0.0035 (0.0111)	loss 2.3084 (2.3062)	Acc@1 6.250 (9.800)	Mem 59MB
+[2026-10-19 06:37:50 lenet] (main.py 160): INFO EPOCH 25 training takes 0:00:02
+[2026-10-19 06:37:50 lenet] (main.py 90): INFO  * Train Acc 9.800 Train Loss 2.306
+[2026-10-19 06:37:50 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 9.8%
+[2026-10-19 06:37:50 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 2.3224 (2.3049)	Acc@1 18.750 (10.000)	Mem 59MB
+[2026-10-19 06:37:50 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.305
+[2026-10-19 06:37:50 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:50 lenet] (load_save.py 48): INFO output/lenet/ckpt_best.pth saving......
+[2026-10-19 06:37:50 lenet] (load_save.py 50): INFO output/lenet/ckpt_best.pth saved !!!
+[2026-10-19 06:37:50 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:53 lenet] (main.py 151): INFO Train: [26/50]	lr 0.020000	time 0.0036 (0.0122)	loss 2.3031 (2.3060)	Acc@1 13.750 (10.160)	Mem 59MB
+[2026-10-19 06:37:53 lenet] (main.py 160): INFO EPOCH 26 training takes 0:00:02
+[2026-10-19 06:37:53 lenet] (main.py 90): INFO  * Train Acc 10.160 Train Loss 2.306
+[2026-10-19 06:37:53 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.2%
+[2026-10-19 06:37:54 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 2.3135 (2.3056)	Acc@1 0.000 (10.000)	Mem 59MB
+[2026-10-19 06:37:54 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.306
+[2026-10-19 06:37:54 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:54 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:56 lenet] (main.py 151): INFO Train: [27/50]	lr 0.020000	time 0.0031 (0.0117)	loss 2.3159 (2.3056)	Acc@1 11.250 (10.228)	Mem 59MB
+[2026-10-19 06:37:56 lenet] (main.py 160): INFO EPOCH 27 training takes 0:00:02
+[2026-10-19 06:37:56 lenet] (main.py 90): INFO  * Train Acc 10.228 Train Loss 2.306
+[2026-10-19 06:37:56 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.2%
+[2026-10-19 06:37:57 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 2.2937 (2.3045)	Acc@1 0.000 (10.000)	Mem 59MB
+[2026-10-19 06:37:57 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.305
+[2026-10-19 06:37:57 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:37:57 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:37:59 lenet] (main.py 151): INFO Train: [28/50]	lr 0.020000	time 0.0029 (0.0114)	loss 2.3057 (2.3060)	Acc@1 8.750 (10.118)	Mem 59MB
+[2026-10-19 06:37:59 lenet] (main.py 160): INFO EPOCH 28 training takes 0:00:02
+[2026-10-19 06:37:59 lenet] (main.py 90): INFO  * Train Acc 10.118 Train Loss 2.306
+[2026-10-19 06:37:59 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.1%
+[2026-10-19 06:38:00 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.018)	Loss 2.2998 (2.3065)	Acc@1 6.250 (10.000)	Mem 59MB
+[2026-10-19 06:38:00 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.307
+[2026-10-19 06:38:00 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:38:00 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:38:02 lenet] (main.py 151): INFO Train: [29/50]	lr 0.020000	time 0.0049 (0.0116)	loss 2.3154 (2.3054)	Acc@1 6.250 (9.900)	Mem 59MB
+[2026-10-19 06:38:02 lenet] (main.py 160): INFO EPOCH 29 training takes 0:00:02
+[2026-10-19 06:38:02 lenet] (main.py 90): INFO  * Train Acc 9.900 Train Loss 2.305
+[2026-10-19 06:38:02 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 9.9%
+[2026-10-19 06:38:03 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 2.3061 (2.3051)	Acc@1 6.250 (10.000)	Mem 59MB
+[2026-10-19 06:38:03 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.305
+[2026-10-19 06:38:03 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:38:03 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:38:05 lenet] (main.py 151): INFO Train: [30/50]	lr 0.020000	time 0.0028 (0.0110)	loss 2.3066 (2.3058)	Acc@1 11.250 (9.980)	Mem 59MB
+[2026-10-19 06:38:05 lenet] (main.py 160): INFO EPOCH 30 training takes 0:00:02
+[2026-10-19 06:38:05 lenet] (main.py 90): INFO  * Train Acc 9.980 Train Loss 2.306
+[2026-10-19 06:38:05 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.0%
+[2026-10-19 06:38:06 lenet] (main.py 193): INFO Validate: 	Time 0.002 (0.016)	Loss 2.2976 (2.3058)	Acc@1 0.000 (10.000)	Mem 59MB
+[2026-10-19 06:38:06 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.306
+[2026-10-19 06:38:06 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:38:06 lenet] (load_save.py 48): INFO output/lenet/ckpt_best.pth saving......
+[2026-10-19 06:38:06 lenet] (load_save.py 50): INFO output/lenet/ckpt_best.pth saved !!!
+[2026-10-19 06:38:06 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:38:08 lenet] (main.py 151): INFO Train: [31/50]	lr 0.020000	time 0.0062 (0.0121)	loss 2.3074 (2.3060)	Acc@1 8.750 (10.198)	Mem 59MB
+[2026-10-19 06:38:08 lenet] (main.py 160): INFO EPOCH 31 training takes 0:00:02
+[2026-10-19 06:38:08 lenet] (main.py 90): INFO  * Train Acc 10.198 Train Loss 2.306
+[2026-10-19 06:38:08 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 10.2%
+[2026-10-19 06:38:09 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 2.3286 (2.3045)	Acc@1 0.000 (10.000)	Mem 59MB
+[2026-10-19 06:38:09 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.304
+[2026-10-19 06:38:09 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:38:09 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:38:11 lenet] (main.py 151): INFO Train: [32/50]	lr 0.020000	time 0.0038 (0.0117)	loss 2.3046 (2.3059)	Acc@1 10.000 (9.916)	Mem 59MB
+[2026-10-19 06:38:11 lenet] (main.py 160): INFO EPOCH 32 training takes 0:00:02
+[2026-10-19 06:38:11 lenet] (main.py 90): INFO  * Train Acc 9.916 Train Loss 2.306
+[2026-10-19 06:38:11 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 9.9%
+[2026-10-19 06:38:12 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.018)	Loss 2.3058 (2.3047)	Acc@1 12.500 (10.000)	Mem 59MB
+[2026-10-19 06:38:12 lenet] (main.py 95): INFO  * Val Acc 10.000 Val Loss 2.305
+[2026-10-19 06:38:12 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 10.0%
+[2026-10-19 06:38:12 lenet] (main.py 102): INFO Max accuracy: 10.00%
+
+[2026-10-19 06:38:14 lenet] (main.py 151): INFO Train: [33/50]	lr 0.020000	time 0.0045 (0.0112)	loss 2.1065 (2.1904)	Acc@1 21.250 (15.630)	Mem 59MB
+[2026-10-19 06:38:14 lenet] (main.py 160): INFO EPOCH 33 training takes 0:00:02
+[2026-10-19 06:38:14 lenet] (main.py 90): INFO  * Train Acc 15.630 Train Loss 2.190
+[2026-10-19 06:38:14 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 15.6%
+[2026-10-19 06:38:15 lenet] (main.py 193): INFO Validate: 	Time 0.003 (0.017)	Loss 1.9323 (2.0873)	Acc@1 18.750 (20.780)	Mem 59MB
+[2026-10-19 06:38:15 lenet] (main.py 95): INFO  * Val Acc 20.780 Val Loss 2.087
+[2026-10-19 06:38:15 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 20.8%
+[2026-10-19 06:38:15 lenet] (main.py 102): INFO Max accuracy: 20.78%
+
+[2026-10-19 06:38:17 lenet] (main.py 151): INFO Train: [34/50]	lr 0.020000	time 0.0025 (0.0110)	loss 2.0929 (2.0940)	Acc@1 20.000 (19.898)	Mem 59MB
+[2026-10-19 06:38:17 lenet] (main.py 160): INFO EPOCH 34 training takes 0:00:02
+[2026-10-19 06:38:17 lenet] (main.py 90): INFO  * Train Acc 19.898 Train Loss 2.094
+[2026-10-19 06:38:17 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 19.9%
+[2026-10-19 06:38:18 lenet] (main.py 193): INFO Validate: 	Time 0.002 (0.018)	Loss 1.7477 (2.0649)	Acc@1 31.250 (20.510)	Mem 59MB
+[2026-10-19 06:38:18 lenet] (main.py 95): INFO  * Val Acc 20.510 Val Loss 2.065
+[2026-10-19 06:38:18 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 20.5%
+[2026-10-19 06:38:18 lenet] (main.py 102): INFO Max accuracy: 20.78%
+
+[2026-10-19 06:38:20 lenet] (main.py 151): INFO Train: [35/50]	lr 0.020000	time 0.0034 (0.0116)	loss 1.9816 (2.0806)	Acc@1 32.500 (20.258)	Mem 59MB
+[2026-10-19 06:38:20 lenet] (main.py 160): INFO EPOCH 35 training takes 0:00:02
+[2026-10-19 06:38:20 lenet] (main.py 90): INFO  * Train Acc 20.258 Train Loss 2.081
+[2026-10-19 06:38:20 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 20.3%
+[2026-10-19 06:38:21 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.016)	Loss 1.8713 (2.0493)	Acc@1 31.250 (21.620)	Mem 59MB
+[2026-10-19 06:38:21 lenet] (main.py 95): INFO  * Val Acc 21.620 Val Loss 2.049
+[2026-10-19 06:38:21 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 21.6%
+[2026-10-19 06:38:21 lenet] (load_save.py 48): INFO output/lenet/ckpt_best.pth saving......
+[2026-10-19 06:38:21 lenet] (load_save.py 50): INFO output/lenet/ckpt_best.pth saved !!!
+[2026-10-19 06:38:21 lenet] (main.py 102): INFO Max accuracy: 21.62%
+
+[2026-10-19 06:38:23 lenet] (main.py 151): INFO Train: [36/50]	lr 0.020000	time 0.0034 (0.0112)	loss 2.0526 (2.0714)	Acc@1 22.500 (20.016)	Mem 59MB
+[2026-10-19 06:38:23 lenet] (main.py 160): INFO EPOCH 36 training takes 0:00:02
+[2026-10-19 06:38:23 lenet] (main.py 90): INFO  * Train Acc 20.016 Train Loss 2.071
+[2026-10-19 06:38:23 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 20.0%
+[2026-10-19 06:38:24 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 1.8142 (2.0322)	Acc@1 18.750 (21.590)	Mem 59MB
+[2026-10-19 06:38:24 lenet] (main.py 95): INFO  * Val Acc 21.590 Val Loss 2.032
+[2026-10-19 06:38:24 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 21.6%
+[2026-10-19 06:38:24 lenet] (main.py 102): INFO Max accuracy: 21.62%
+
+[2026-10-19 06:38:26 lenet] (main.py 151): INFO Train: [37/50]	lr 0.020000	time 0.0025 (0.0106)	loss 2.0096 (2.0561)	Acc@1 25.000 (20.400)	Mem 59MB
+[2026-10-19 06:38:26 lenet] (main.py 160): INFO EPOCH 37 training takes 0:00:02
+[2026-10-19 06:38:26 lenet] (main.py 90): INFO  * Train Acc 20.400 Train Loss 2.056
+[2026-10-19 06:38:26 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 20.4%
+[2026-10-19 06:38:27 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 1.7410 (2.0203)	Acc@1 25.000 (19.230)	Mem 59MB
+[2026-10-19 06:38:27 lenet] (main.py 95): INFO  * Val Acc 19.230 Val Loss 2.020
+[2026-10-19 06:38:27 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 19.2%
+[2026-10-19 06:38:27 lenet] (main.py 102): INFO Max accuracy: 21.62%
+
+[2026-10-19 06:38:29 lenet] (main.py 151): INFO Train: [38/50]	lr 0.020000	time 0.0026 (0.0117)	loss 1.9454 (2.0523)	Acc@1 26.250 (19.746)	Mem 59MB
+[2026-10-19 06:38:29 lenet] (main.py 160): INFO EPOCH 38 training takes 0:00:02
+[2026-10-19 06:38:29 lenet] (main.py 90): INFO  * Train Acc 19.746 Train Loss 2.052
+[2026-10-19 06:38:29 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 19.7%
+[2026-10-19 06:38:30 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 1.8533 (2.0342)	Acc@1 25.000 (21.540)	Mem 59MB
+[2026-10-19 06:38:30 lenet] (main.py 95): INFO  * Val Acc 21.540 Val Loss 2.034
+[2026-10-19 06:38:30 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 21.5%
+[2026-10-19 06:38:30 lenet] (main.py 102): INFO Max accuracy: 21.62%
+
+[2026-10-19 06:38:32 lenet] (main.py 151): INFO Train: [39/50]	lr 0.020000	time 0.0033 (0.0111)	loss 1.8468 (2.0420)	Acc@1 22.500 (20.520)	Mem 59MB
+[2026-10-19 06:38:32 lenet] (main.py 160): INFO EPOCH 39 training takes 0:00:02
+[2026-10-19 06:38:32 lenet] (main.py 90): INFO  * Train Acc 20.520 Train Loss 2.042
+[2026-10-19 06:38:32 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 20.5%
+[2026-10-19 06:38:33 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 1.8521 (2.0221)	Acc@1 12.500 (21.470)	Mem 59MB
+[2026-10-19 06:38:33 lenet] (main.py 95): INFO  * Val Acc 21.470 Val Loss 2.022
+[2026-10-19 06:38:33 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 21.5%
+[2026-10-19 06:38:33 lenet] (main.py 102): INFO Max accuracy: 21.62%
+
+[2026-10-19 06:38:35 lenet] (main.py 151): INFO Train: [40/50]	lr 0.020000	time 0.0025 (0.0115)	loss 2.0897 (2.0250)	Acc@1 23.750 (20.894)	Mem 59MB
+[2026-10-19 06:38:35 lenet] (main.py 160): INFO EPOCH 40 training takes 0:00:02
+[2026-10-19 06:38:35 lenet] (main.py 90): INFO  * Train Acc 20.894 Train Loss 2.025
+[2026-10-19 06:38:35 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 20.9%
+[2026-10-19 06:38:36 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 1.7689 (2.0106)	Acc@1 25.000 (20.880)	Mem 59MB
+[2026-10-19 06:38:36 lenet] (main.py 95): INFO  * Val Acc 20.880 Val Loss 2.011
+[2026-10-19 06:38:36 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 20.9%
+[2026-10-19 06:38:36 lenet] (load_save.py 48): INFO output/lenet/ckpt_best.pth saving......
+[2026-10-19 06:38:36 lenet] (load_save.py 50): INFO output/lenet/ckpt_best.pth saved !!!
+[2026-10-19 06:38:36 lenet] (main.py 102): INFO Max accuracy: 21.62%
+
+[2026-10-19 06:38:38 lenet] (main.py 151): INFO Train: [41/50]	lr 0.020000	time 0.0025 (0.0109)	loss 2.0334 (2.0231)	Acc@1 20.000 (20.856)	Mem 59MB
+[2026-10-19 06:38:38 lenet] (main.py 160): INFO EPOCH 41 training takes 0:00:02
+[2026-10-19 06:38:38 lenet] (main.py 90): INFO  * Train Acc 20.856 Train Loss 2.023
+[2026-10-19 06:38:38 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 20.9%
+[2026-10-19 06:38:39 lenet] (main.py 193): INFO Validate: 	Time 0.002 (0.018)	Loss 1.9009 (1.9877)	Acc@1 18.750 (21.380)	Mem 59MB
+[2026-10-19 06:38:39 lenet] (main.py 95): INFO  * Val Acc 21.380 Val Loss 1.988
+[2026-10-19 06:38:39 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 21.4%
+[2026-10-19 06:38:39 lenet] (main.py 102): INFO Max accuracy: 21.62%
+
+[2026-10-19 06:38:41 lenet] (main.py 151): INFO Train: [42/50]	lr 0.020000	time 0.0026 (0.0115)	loss 1.9092 (1.9958)	Acc@1 26.250 (22.458)	Mem 59MB
+[2026-10-19 06:38:41 lenet] (main.py 160): INFO EPOCH 42 training takes 0:00:02
+[2026-10-19 06:38:41 lenet] (main.py 90): INFO  * Train Acc 22.458 Train Loss 1.996
+[2026-10-19 06:38:41 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 22.5%
+[2026-10-19 06:38:42 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 1.8263 (1.9499)	Acc@1 25.000 (24.440)	Mem 59MB
+[2026-10-19 06:38:42 lenet] (main.py 95): INFO  * Val Acc 24.440 Val Loss 1.950
+[2026-10-19 06:38:42 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 24.4%
+[2026-10-19 06:38:42 lenet] (main.py 102): INFO Max accuracy: 24.44%
+
+[2026-10-19 06:38:44 lenet] (main.py 151): INFO Train: [43/50]	lr 0.020000	time 0.0042 (0.0112)	loss 2.0636 (1.9766)	Acc@1 18.750 (23.578)	Mem 59MB
+[2026-10-19 06:38:44 lenet] (main.py 160): INFO EPOCH 43 training takes 0:00:02
+[2026-10-19 06:38:44 lenet] (main.py 90): INFO  * Train Acc 23.578 Train Loss 1.977
+[2026-10-19 06:38:44 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 23.6%
+[2026-10-19 06:38:45 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 1.8858 (2.0164)	Acc@1 6.250 (23.740)	Mem 59MB
+[2026-10-19 06:38:45 lenet] (main.py 95): INFO  * Val Acc 23.740 Val Loss 2.016
+[2026-10-19 06:38:45 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 23.7%
+[2026-10-19 06:38:45 lenet] (main.py 102): INFO Max accuracy: 24.44%
+
+[2026-10-19 06:38:47 lenet] (main.py 151): INFO Train: [44/50]	lr 0.020000	time 0.0038 (0.0114)	loss 1.9427 (1.9573)	Acc@1 30.000 (23.614)	Mem 59MB
+[2026-10-19 06:38:47 lenet] (main.py 160): INFO EPOCH 44 training takes 0:00:02
+[2026-10-19 06:38:47 lenet] (main.py 90): INFO  * Train Acc 23.614 Train Loss 1.957
+[2026-10-19 06:38:47 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 23.6%
+[2026-10-19 06:38:48 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.016)	Loss 1.8571 (1.9697)	Acc@1 18.750 (25.780)	Mem 59MB
+[2026-10-19 06:38:48 lenet] (main.py 95): INFO  * Val Acc 25.780 Val Loss 1.970
+[2026-10-19 06:38:48 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 25.8%
+[2026-10-19 06:38:48 lenet] (main.py 102): INFO Max accuracy: 25.78%
+
+[2026-10-19 06:38:50 lenet] (main.py 151): INFO Train: [45/50]	lr 0.020000	time 0.0030 (0.0111)	loss 1.8795 (1.9553)	Acc@1 25.000 (24.012)	Mem 59MB
+[2026-10-19 06:38:50 lenet] (main.py 160): INFO EPOCH 45 training takes 0:00:02
+[2026-10-19 06:38:50 lenet] (main.py 90): INFO  * Train Acc 24.012 Train Loss 1.955
+[2026-10-19 06:38:50 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 24.0%
+[2026-10-19 06:38:51 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 1.8118 (1.9157)	Acc@1 18.750 (24.780)	Mem 59MB
+[2026-10-19 06:38:51 lenet] (main.py 95): INFO  * Val Acc 24.780 Val Loss 1.916
+[2026-10-19 06:38:51 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 24.8%
+[2026-10-19 06:38:51 lenet] (load_save.py 48): INFO output/lenet/ckpt_best.pth saving......
+[2026-10-19 06:38:51 lenet] (load_save.py 50): INFO output/lenet/ckpt_best.pth saved !!!
+[2026-10-19 06:38:51 lenet] (main.py 102): INFO Max accuracy: 25.78%
+
+[2026-10-19 06:38:53 lenet] (main.py 151): INFO Train: [46/50]	lr 0.020000	time 0.0025 (0.0111)	loss 1.8583 (1.9274)	Acc@1 32.500 (24.702)	Mem 59MB
+[2026-10-19 06:38:53 lenet] (main.py 160): INFO EPOCH 46 training takes 0:00:02
+[2026-10-19 06:38:53 lenet] (main.py 90): INFO  * Train Acc 24.702 Train Loss 1.927
+[2026-10-19 06:38:53 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 24.7%
+[2026-10-19 06:38:54 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.016)	Loss 1.7618 (1.8706)	Acc@1 12.500 (28.850)	Mem 59MB
+[2026-10-19 06:38:54 lenet] (main.py 95): INFO  * Val Acc 28.850 Val Loss 1.871
+[2026-10-19 06:38:54 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 28.9%
+[2026-10-19 06:38:54 lenet] (main.py 102): INFO Max accuracy: 28.85%
+
+[2026-10-19 06:38:56 lenet] (main.py 151): INFO Train: [47/50]	lr 0.020000	time 0.0021 (0.0107)	loss 1.9094 (1.9097)	Acc@1 30.000 (25.434)	Mem 59MB
+[2026-10-19 06:38:56 lenet] (main.py 160): INFO EPOCH 47 training takes 0:00:02
+[2026-10-19 06:38:56 lenet] (main.py 90): INFO  * Train Acc 25.434 Train Loss 1.910
+[2026-10-19 06:38:56 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 25.4%
+[2026-10-19 06:38:57 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 1.7520 (1.8886)	Acc@1 12.500 (26.410)	Mem 59MB
+[2026-10-19 06:38:57 lenet] (main.py 95): INFO  * Val Acc 26.410 Val Loss 1.889
+[2026-10-19 06:38:57 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 26.4%
+[2026-10-19 06:38:57 lenet] (main.py 102): INFO Max accuracy: 28.85%
+
+[2026-10-19 06:38:59 lenet] (main.py 151): INFO Train: [48/50]	lr 0.020000	time 0.0028 (0.0108)	loss 2.1198 (1.8914)	Acc@1 15.000 (25.454)	Mem 59MB
+[2026-10-19 06:38:59 lenet] (main.py 160): INFO EPOCH 48 training takes 0:00:02
+[2026-10-19 06:38:59 lenet] (main.py 90): INFO  * Train Acc 25.454 Train Loss 1.891
+[2026-10-19 06:38:59 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 25.5%
+[2026-10-19 06:39:00 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 1.8656 (1.8490)	Acc@1 12.500 (26.290)	Mem 59MB
+[2026-10-19 06:39:00 lenet] (main.py 95): INFO  * Val Acc 26.290 Val Loss 1.849
+[2026-10-19 06:39:00 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 26.3%
+[2026-10-19 06:39:00 lenet] (main.py 102): INFO Max accuracy: 28.85%
+
+[2026-10-19 06:39:02 lenet] (main.py 151): INFO Train: [49/50]	lr 0.020000	time 0.0045 (0.0115)	loss 1.9191 (1.8779)	Acc@1 26.250 (26.088)	Mem 59MB
+[2026-10-19 06:39:02 lenet] (main.py 160): INFO EPOCH 49 training takes 0:00:02
+[2026-10-19 06:39:02 lenet] (main.py 90): INFO  * Train Acc 26.088 Train Loss 1.878
+[2026-10-19 06:39:02 lenet] (main.py 91): INFO Accuracy of the network on the 50000 train images: 26.1%
+[2026-10-19 06:39:03 lenet] (main.py 193): INFO Validate: 	Time 0.001 (0.017)	Loss 1.8474 (1.8448)	Acc@1 25.000 (26.080)	Mem 59MB
+[2026-10-19 06:39:03 lenet] (main.py 95): INFO  * Val Acc 26.080 Val Loss 1.845
+[2026-10-19 06:39:03 lenet] (main.py 96): INFO Accuracy of the network on the 10000 val images: 26.1%
+[2026-10-19 06:39:03 lenet] (load_save.py 48): INFO output/lenet/ckpt_best.pth saving......
+[2026-10-19 06:39:03 lenet] (load_save.py 50): INFO output/lenet/ckpt_best.pth saved !!!
+[2026-10-19 06:39:03 lenet] (main.py 102): INFO Max accuracy: 28.85%
+
+[2026-10-19 06:39:03 lenet] (main.py 115): INFO Training time 0:02:30
+[2026-10-19 06:39:03 lenet] (main.py 117): INFO Start testing
